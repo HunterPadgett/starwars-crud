@@ -1,0 +1,41 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ height: 100dvh;
+ background-color: #212121;
+}
+
+header,
+main {
+ background-color: rgb(214, 208, 203);
+ margin: 1rem;
+}
+
+header {
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ height: 10%;
+}
+
+section {
+ display: flex;
+ justify-content: space-between;
+ height: 40%;
+ margin: 1rem;
+}
+article {
+ padding: 0.5rem;
+ background-color: rgb(214, 208, 203);
+}
+
+#message {
+ margin-top: 1rem;
+}
+
+main {
+ height: 40%;
+ padding: 0.5rem;
+}
