@@ -30,6 +30,7 @@ section {
  margin: 1rem;
 }
 article {
+ text-align: center;
  padding: 0.5rem;
  background-color: rgb(233, 227, 223);
 }

@@ -2,8 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const MongoClient = require("mongodb").MongoClient;
-const connectionString =
- "mongodb+srv://user:pass1234@star-wars-cluster.mxwv4qs.mongodb.net/?retryWrites=true&w=majority";
+require("dotenv").config();
+
+const connectionString = process.env.DB_CONNECTION_STRING;
 
 // The urlencoded method within body-parser tells body-parser to extract data from the <form> element and add them to the body property in the request object.
 app.use(bodyParser.urlencoded({ extended: true }));
