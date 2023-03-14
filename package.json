@@ -1,0 +1,26 @@
+{
+  "name": "starwars-crud",
+  "version": "1.0.0",
+  "description": "crud app using node, express, and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterPadgett/starwars-crud.git"
+  },
+  "author": "Hunter Padgett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterPadgett/starwars-crud/issues"
+  },
+  "homepage": "https://github.com/HunterPadgett/starwars-crud#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
