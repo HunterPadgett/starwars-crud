@@ -1,15 +1,17 @@
 * {
  box-sizing: border-box;
+ margin: 0;
+ padding: 0;
 }
 
 body {
  height: 100dvh;
- background-color: #212121;
+ background-color: #272d4e;
 }
 
 header,
 main {
- background-color: rgb(214, 208, 203);
+ background-color: rgb(233, 227, 223);
  margin: 1rem;
 }
 
@@ -17,7 +19,8 @@ header {
  display: flex;
  text-align: center;
  justify-content: center;
- height: 10%;
+ align-items: center;
+ height: 8%;
 }
 
 section {
@@ -28,7 +31,7 @@ section {
 }
 article {
  padding: 0.5rem;
- background-color: rgb(214, 208, 203);
+ background-color: rgb(233, 227, 223);
 }
 
 #message {
@@ -36,6 +39,10 @@ article {
 }
 
 main {
- height: 40%;
+ height: 45%;
  padding: 0.5rem;
+}
+
+.quotes {
+ margin: 1rem;
 }
