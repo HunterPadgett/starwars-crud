@@ -60,7 +60,20 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
      }
     )
     .then((results) => {
-     res.json("success");
+     console.log(results);
+     res.json("replaced yoda quote");
+    })
+    .catch((err) => console.error(err));
+  });
+
+  app.delete("/quotes", (req, res) => {
+   quotesCollection
+    .deleteOne({ name: req.body.name })
+    .then((results) => {
+     if (results.deletedCount === 0) {
+      return res.json("no Darth quote to delete");
+     }
+     res.json("deleted Darth quote");
     })
     .catch((err) => console.error(err));
   });
