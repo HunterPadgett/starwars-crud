@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
+const port = process.env.PORT || 3000;
 const MongoClient = require("mongodb").MongoClient;
 require("dotenv").config();
 
@@ -61,7 +62,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
      }
     )
     .then((results) => {
-     console.log(results);
+     //  console.log(results);
      res.json("replaced yoda quote");
     })
     .catch((err) => console.error(err));
@@ -80,8 +81,9 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
   });
 
   // create a server that browsers can connect to
-  app.listen(3000, () => {
-   console.log(`we listenin' on... http://localhost:3000`);
+
+  app.listen(port, () => {
+   console.log(`listening on http://localhost:${port}`);
   });
  })
  .catch((error) => console.error(error));
