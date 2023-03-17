@@ -37,7 +37,7 @@ This will start the app at http://localhost:3000.
 
 ## Usage
 
-To add a new quote, fill out the form click the "Submit" button. To edit an existing quote, click the "Edit" button next to the quote you want to update. To delete a quote, click the "Delete" button next to the quote you want to remove.
+To add a new quote, fill out the form click the "Submit" button. To edit an existing Yoda quote, click the "Replace Yoda's quote" button and a Darth Vader quote will appear. To delete a Darth Vader quote, click the "Delete Darth Vader's quote" button and it will remove the latest Darth Vader quote.
 
 ## Contribution and Attribution
 
