@@ -41,13 +41,11 @@ To add a new quote, fill out the form click the "Submit" button. To edit an exis
 
 ## Contribution and Attribution
 
-Contributions to My Read Books are welcome! If you have an idea for a feature or improvement, feel free to open an issue or submit a pull request.
-
-This project was created by [Hunter Padgett](https://hunterpadgett.netlify.app/) and uses [Open Library API](https://openlibrary.org/dev/docs/api/books)
+This project was created by [Hunter Padgett](https://hunterpadgett.netlify.app/) and uses this tutorial from [Zell Liew](https://zellwk.com/blog/crud-express-mongodb/)
 
 ## Technologies
 
-This app was built with Astro, Tailwind CSS, and JavaScript. The app is hosted on Netlify.
+This app was built with EJS, Node.js, Express, and MongoDB.
 
 ## Questions
 
